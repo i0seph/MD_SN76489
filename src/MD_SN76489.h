@@ -72,13 +72,13 @@ sound generator chip from Texas Instruments. It provides:
 
 The IC has 16 pins with the following pinout:
 
-     D5 ->  1 +-----+ 16 <- Vcc
-     D6 ->  2 | S N | 15 <- D4
-     D7 ->  3 |  7  | 14 <- CLK
-    RDY ->  4 |  6  | 13 <- D3
-    /WE ->  5 |  4  | 12 <- D2
-    /CE ->  6 |  8  | 11 <- D1
-    AUD ->  7 |  9  | 10 <- D0
+     D2 ->  1 +-----+ 16 <- Vcc
+     D1 ->  2 | S N | 15 <- D3
+     D0 ->  3 |  7  | 14 <- CLK
+    RDY ->  4 |  6  | 13 <- D4
+    /WE ->  5 |  4  | 12 <- D5
+    /CE ->  6 |  8  | 11 <- D6
+    AUD ->  7 |  9  | 10 <- D7
     GND ->  8 +-----+ 9  <- N/C
 
 
